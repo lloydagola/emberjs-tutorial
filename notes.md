@@ -39,3 +39,6 @@ const { item_id } = params;
 
 }
 }
+
+remove routes
+ember destroy route routename
