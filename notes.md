@@ -42,3 +42,6 @@ const { item_id } = params;
 
 remove routes
 ember destroy route routename
+
+adding links
+<LinkTo @route="item" @model="1">product 1</LinkTo>
