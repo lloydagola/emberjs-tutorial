@@ -20,5 +20,22 @@ generate routes
 ember g route routename
 or ember g route routename/nested
 
-remember index routes
+dont forget index routes
 ember g route routename/index
+
+generate dynamic routes
+1.ember g route routename
+
+2.override path in router.js
+this.route('item', { path: '/item/:item_id' });
+
+3.handle model in routes/routename.js
+
+export default class ItemRoute extends Route {
+model(params) {
+const { item_id } = params;
+
+    return item_id;
+
+}
+}
