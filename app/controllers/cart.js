@@ -1,3 +1,15 @@
 import Controller from '@ember/controller';
+export default class CartController extends Controller {
+  get subtotal() {
+    return this.model.reduce((acc, { price }) => {
+      return acc + price;
+    }, 0);
+  }
+  get tax() {
+    return 0.09 * this.subtotal;
+  }
 
-export default class CartController extends Controller {}
+  get total() {
+    return this.subtotal + this.tax;
+  }
+}
