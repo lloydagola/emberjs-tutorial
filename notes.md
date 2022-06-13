@@ -19,3 +19,6 @@ ember init
 generate routes
 ember g route routename
 or ember g route routename/nested
+
+remember index routes
+ember g route routename/index
