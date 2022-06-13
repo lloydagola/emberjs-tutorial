@@ -11,3 +11,11 @@ includes embiCLI; a cool tool to init an ember project
 includes emberData to help organize data on the client-side
 and communicate with the server
 large community and forum
+
+commands
+init ember app
+ember init
+
+generate routes
+ember g route routename
+or ember g route routename/nested
