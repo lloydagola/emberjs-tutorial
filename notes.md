@@ -50,6 +50,9 @@ adding components
 ember g component component_name
 ember g component-class component_name
 
+adding helpers
+ember g helper helpername
+
 links
 <LinkTo @route="item" @model="1">product 1</LinkTo>
 
