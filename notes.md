@@ -48,6 +48,7 @@ ember g controller controller_name
 
 adding components
 ember g component component_name
+ember g component-class component_name
 
 links
 <LinkTo @route="item" @model="1">product 1</LinkTo>
