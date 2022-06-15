@@ -44,7 +44,14 @@ remove routes
 ember destroy route routename
 
 adding controllers
-ember g controller controllername
+ember g controller controller_name
+
+adding components
+ember g component component_name
 
 links
 <LinkTo @route="item" @model="1">product 1</LinkTo>
+
+Components
+reusable configurable building blocks of UIs
+placed inside routes or other components
